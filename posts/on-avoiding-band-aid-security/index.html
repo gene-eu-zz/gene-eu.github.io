@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>On avoiding band-aid security - ivychapel.ink</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="On avoiding band-aid security" />
+<meta property="og:description" content="Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.
+Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
+The other day I was talking to a customer, and a familiar narrative surfaced:
+ “We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ivychapel.ink/posts/on-avoiding-band-aid-security/" />
+<meta property="article:published_time" content="2019-01-30T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-01-30T00:00:00&#43;00:00"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="On avoiding band-aid security"/>
+<meta name="twitter:description" content="Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.
+Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
+The other day I was talking to a customer, and a familiar narrative surfaced:
+ “We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents."/>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" /><script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script><script src="/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<h1 class="site-title">ivychapel.ink</h1>
+	<div class="site-description"><ul class="flat">
+			
+			<li>
+				<strong style="font-weight:300">~/</strong><a href="/">home</a>
+			</li>
+			
+			<li>
+				<strong style="font-weight:300">~/</strong><a href="/posts">posts</a>
+			</li>
+			
+		</ul>
+		<nav class="nav social">
+			<ul class="flat"><a href="https://twitter.com/gohugoio" title="Twitter"><i data-feather="twitter"></i></a><a href="" title="LinkedIn"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">On avoiding band-aid security</h1>
+			<div class="meta">Jan 30, 2019</div>
+		</div>
+
+		<div class="markdown">
+			
+
+<p>Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.</p>
+
+<p>Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.</p>
+
+<p>The other day I was talking to a customer, and a familiar narrative surfaced:</p>
+
+<blockquote>
+<p>“We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents. We’re considering to go to court against X, and we’ve had to fire our CTO, because how could he have let this happen to us after all we’ve done.”</p>
+</blockquote>
+
+<p>Knowing company X, I have no reasons to doubt the depth and quality of the assessment (in fact, they are one of the rare species in the pentesting world — they try to provide not only “immediate relief” advise, but point out at least some systematic flaws and approaches to systematic mitigation). Yet, while the whole idea of one-time intervention to providing the diagnosis of most risky components of the system is commonplace now, how this diagnosis is used to improve security posture is what rarely gets discussed.</p>
+
+<p>The typical result of any penetration testing is a list of detected vulnerabilities. At best, they come with generic mitigation advice and pointing out general flaws in the system’s design and the company’s technical processes.</p>
+
+<p>When analyzed systematically and honestly, any large picture of disjointed diagnostic signals from a system would converge into several root causes, that govern system’s behavior.If the picture doesn’t — it’s either not a system at all, or the analysis is wrong.Without going into pitfalls of how typical analysis fails, one can see that any current state of corporate technical infrastructure is governed by processes, humans, machines, and the state of machines that humans inflict upon them (or allow to emerge).</p>
+
+<p><strong>Contemplate this for a second</strong>: what if, in your next security planning effort, you would have spent time on identifying the root causes for the last set of security problems detected by penetration testing, and find solutions to them, instead of band-aiding them?</p>
+
+<p>Each measure we all know in improving security posture is an artifact of someone trying to dig deeper into the root causes.</p>
+
+<ul>
+<li>Closing ports is easy. Changing domain policies and endpoint protection is not too hard. But if your company ends up to fix things more than once — perhaps, the ports were not the problem in the first place?</li>
+<li>Making sure that new services get deployed with proper authentication and firewall rules? Better. But do all the new initiatives follow the same set of rules?</li>
+<li>Making sure that security impact is considered by all teams upon making change to production systems? Sounds like good old security policy work, which slows down business infinitely, yet provides sufficient security posture against most risks, when used right.</li>
+<li>Focus on security awareness training for technical and non-technical teams? Incident drills?</li>
+<li>Lock down everything and enable creation of a new file in shared folder after two written requests? (I kid you not, there are businesses like that).</li>
+</ul>
+
+<p>Unfortunately, the tech industry has done itself more harm than good by creating a barrier of information asymmetry between technical and business executives. “Pick the right team, supply it with resources and it will do good”, “shoo, we don’t need your rigid policies and retarded checklists, we can just fix things”. Security incident over stupid cause? Just fire some of the senior tech executives and find better ones, because you’re not getting to understand what they do anyway.</p>
+
+<p>If root cause for any problems are humans, and humans are flawed in their judgment, then humans are all we’ve left to blame.</p>
+
+<p><img src="/media/0*JBqcM2UVceuLPfIo.gif" alt="" /></p>
+
+<p>Now, let’s see what happens when you find different people to do the same job? Their judgments are flawed in a different way and you’re back to base 1. Band-aid didn’t work so well and you’re still ignorant to root causes.</p>
+
+<h2 id="what-if-as-a-mental-exercise-we-would-try-to-reduce-or-eliminate-risk-causes-instead-of-band-aiding-their-manifestations">What if, as a mental exercise, we would try to reduce (or eliminate) risk causes instead of band-aiding their manifestations?</h2>
+
+<p>Consider a hypothesis, for a second:</p>
+
+<blockquote>
+<p>Processes (be it formal, formalized in code or informal culture) are the root cause of any security incident.</p>
+</blockquote>
+
+<p>Then, contemplate another possibility — that the root cause can be detected and fixed (at least to accommodate to current degree of detected problems).</p>
+
+<p>How can we get there?</p>
+
+<p>It has nothing to do with technology, in fact. It requires three things:</p>
+
+<ul>
+<li><strong>Challenge problematic status-quo to get to the root causes</strong>. Taking aspirin to cure the pain is good, but if the pain comes from the tumor pressure inside your brain, you better challenge status-quo before you die. Short-term relief doesn’t yield long-term health. <strong>Finding more compromises and a better painkiller typically costs as much as coming up with the solution to root causes.</strong></li>
+<li><strong>Every vulnerability, weakness, and resulting incident damage is a manifestation of architectural or process deficiency</strong> (or absence of any proper process in place). We live in a world where our systems run hundreds of pieces of software other people wrote. Blaming their authors for writing not-100%-secure code isn’t going to make your life better. Treating any piece of code as an attack vector and building defenses around it according to trust level is. Treating deficiencies properly yields more long-term benefit than any advanced threat mitigation technology altogether.</li>
+<li><strong>Ability to deal with the root causes for all the deficiencies makes most economically efficient mitigations to risks</strong>, yet requires a good focus on the root causes along with immediate cure to short-term threats. Hospitals stabilize critical patients with painkillers to get them into a cureable state, not to make them feel good.</li>
+</ul>
+
+<h3 id="finding-someone-or-something-to-blame-is-not-equal-to-finding-the-root-cause">Finding someone or something to blame is not equal to finding the root cause.</h3>
+
+<p>Blaming either masks the problem by hoping that replacement of system’s element will change the flawed system or creates self-sustained conflicts and power struggles in management. Neither of those solves the problem and, in fact, becomes another way of living with the contradictory status-quo by attaching scapegoat positions to it.</p>
+
+<p>The false boundaries to root cause analysis is status-quo and helplessness against accepted contradictions.</p>
+
+<blockquote>
+<p>The real boundaries to which you should push root cause analysis to is what you can change if you had good faith that it’s going to have a real impact on a problem.</p>
+</blockquote>
+
+<p>Because, if you do it thoroughly, the results will surprise you.</p>
+
+<h2 id="the-root-cause-analysis-101-and-202-and-303">The root cause analysis 101 (and 202, and 303)</h2>
+
+<p>If there’s something I’ve learned about root cause analysis over years, it’s that methodology is obvious yet people rarely apply it well. It’s not about asking “Why” 5 times (although it helps), and not about combining results in the cohesive narrative (although it’s almost necessary).</p>
+
+<p>Most of the problems have to do with the way we think and perceive problems, not with the problems themselves:</p>
+
+<p><img src="/media/1*0KPOsTfktAgS9OKAvqP6Pg.png" alt="" />
+<div align="center"><small>We’re typically afraid of the root causes.</small></div></p>
+
+<p>Root causes tend to challenge our assumptions about reality (because the root cause for many problems is a conflict of our worldview and reality, or between various opinions on worldviews).</p>
+
+<p><img src="/media/1*dmC_3WnDI7SsB4A7Idphwg.png.gif" alt="" />
+<div align="center"><small>Fixing problems can provide immediate relief and can suck up any amount of time.</small></div></p>
+
+<p>We’re quite exhausted trying to figure out the band-aid solution, and are happy to repeat the exercise over and over again because fixing the obvious problem is a good compromise when you repress the bigger problem behind it and accept it. Yet, as pictured above, it’s a futile effort.</p>
+
+<h3 id="how-to-seek-root-causes">How to seek root causes?</h3>
+
+<p>So how should we try to think about root causes to avoid masking the bigger problems and finding good solutions to them?</p>
+
+<ul>
+<li><strong>Root causes are entities and processes, not people and events</strong>. If your system wasn’t built to deal with poor decisions and mistakes — it’s a system’s problem. If it wasn’t budgeted to be dealt with — it’s a system’s problem again. If the random unpredictable event wasn’t the part of the plan covered with redundancy or defense in depth — it’s a system’s problem again.</li>
+<li><strong>The typical straw-man argument often heard here is that no battle plan ever survives contact with the enemy</strong>. However, the <em>locally-correct</em> definition of a system here is that of “harmonious set of tools and processes providing sufficient control over things your business does control, and sufficient reactive capability for known/unknown unknowns”. Building up proper capabilities decreases the chances for miserable failure.</li>
+<li>Good identification of root causes ends up with a few causes that govern most effects. Perfect identification typically results in not just solutions to current problems, but valuable side-effects (by eliminating deficiencies you haven’t yet put your attention to, or by helping you recognize other opportunities).</li>
+<li>First side-effect of the point above is that you don’t need all the data to detect most of root causes — if they are governing the effects you can easily see, it’s likely that they will govern the rest of the effects. This assumption, when used properly, makes high-quality penetration testing as efficient in improving security posture, as a whole top-down audit — just requires some digging to root causes of problems detected.</li>
+<li>Each identified root cause and its effects have sufficient actionable steps to mitigate and evident points of resistance — these points are a product of previous compromises scarred into management processes.</li>
+<li>Combination of measures to address root causes does not imply revamping your infrastructure and processes everywhere — but, by aligning a few causes, most problematic effects will be eliminated.</li>
+<li>While the effects are typical to many infrastructures and organizations around, the root causes typically tend to be fairly organization-specific.</li>
+</ul>
+
+<p>It’s important to remember one thing —<strong>all problems will never go away</strong>. Some of them are inherent to the current state of the business, which is a real constraint to change, some of them are a function of the current evolution of technology, some — of the current evolution of human race. You will always have the poor human judgment to some degree, you will always have buggy software in unexpected ways. You can’t have a bigger budget than it is reasonable for business survival, neither you can have less infrastructure mess than your current team is able to maintain. However, both available resources and acceptable mayhem is always far away from the levels set out by our expectations, if you challenge them hard enough:</p>
+
+<blockquote>
+<p>there always is a room for radical improvement if you understand causal relationships and laws that govern the system of your business.</p>
+</blockquote>
+
+<h2 id="practicalities">Practicalities</h2>
+
+<p>Software development and infrastructure management have finally landed to a shared frame of mind — it’s all development and maintenance, carried out in different proportions by different departments, but working best when the responsibility and approaches are shared.</p>
+
+<p>One of the root causes for trouble most organizations share is so-called <a href="https://en.wikipedia.org/wiki/Time_preference">temporal discounting</a> when thinking about risk. It always feels more reasonable to quickly band-aid another vulnerability instead of detecting root causes and eliminating them. In reality, these two are not contradictions (remember about eliminating contradictions from the paragraph above?) — you can and should both band-aid the problem and dig for its root cause. Otherwise, just as in any technical debt, patching without addressing the debt leads to horrors. Time preference is a function of people not having sufficient certainty for tomorrow’s challenges — but, in this case, tomorrow’s challenges are driven by today’s temporal discounting.</p>
+
+<p>There are risks that can be avoided by enforcing technical processes and solutions. Infrastructure engineering and cybersecurity industries are happy to offer you many, given that you understand the risks and implications to pick appropriate ones.</p>
+
+<p>There are risks that can be minimized by adjusting the processes — any development lifecycle can be armored with SSDLC, no matter how agile, any quality attribute viable to business (including security) is a subject to measurement, that should inform processes, alter them and improve them in self-sustaining learning loop.</p>
+
+<p>But only under one important prerequisite.</p>
+
+<h2 id="look-for-the-root-cause-luke">Look for the root cause, Luke!</h2>
+
+<p>Whenever you read reports of 10 obvious vulnerabilities in your penetration testing report, don’t stop asking internally “why?” until you see how the 10 vulnerabilities converge into a few reasons. And address these reasons.</p>
+
+<p>The long-term impact of removing the opportunity to introduce new vulnerabilities into the system is way more meaningful than just sitting and obsessively using duct-tape everywhere.</p>
+
+<p><img src="/media/0*8vXYrHpIxS53E0A4.jpg" alt="" />
+Here’s a scared duct-taped penguin for no apparent reason — you’ve made it to the end of this blog post.</p>
+
+		</div>
+
+
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>You have reached the end of this page, so why don't you head back <a href="/">home</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>

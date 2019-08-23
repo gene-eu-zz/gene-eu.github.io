@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Two types of engineering for resiliency - ivychapel.ink</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Two types of engineering for resiliency" />
+<meta property="og:description" content="As you might&rsquo;ve noticed already, I spend quite a lot of time thinking about the way we think when we choose this or that way to solve problems and engineer things against risk. Another brief note on the subject, picking up metaphors from some twitter discussion I&rsquo;ve loved.
+There are two metaphors for resiliency and risk management in traditional engineering — the NASA way and the US Navy way. I’m not entirely sure how they reflect reality, given the story of Apollo Guidance Computer’s design, but they’re very valid to make the point." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/" />
+<meta property="article:published_time" content="2018-02-09T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-02-09T00:00:00&#43;00:00"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Two types of engineering for resiliency"/>
+<meta name="twitter:description" content="As you might&rsquo;ve noticed already, I spend quite a lot of time thinking about the way we think when we choose this or that way to solve problems and engineer things against risk. Another brief note on the subject, picking up metaphors from some twitter discussion I&rsquo;ve loved.
+There are two metaphors for resiliency and risk management in traditional engineering — the NASA way and the US Navy way. I’m not entirely sure how they reflect reality, given the story of Apollo Guidance Computer’s design, but they’re very valid to make the point."/>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" /><script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script><script src="/js/main.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<h1 class="site-title">ivychapel.ink</h1>
+	<div class="site-description"><ul class="flat">
+			
+			<li>
+				<strong style="font-weight:300">~/</strong><a href="/">home</a>
+			</li>
+			
+			<li>
+				<strong style="font-weight:300">~/</strong><a href="/posts">posts</a>
+			</li>
+			
+		</ul>
+		<nav class="nav social">
+			<ul class="flat"><a href="https://twitter.com/gohugoio" title="Twitter"><i data-feather="twitter"></i></a><a href="" title="LinkedIn"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Two types of engineering for resiliency</h1>
+			<div class="meta">Feb 9, 2018</div>
+		</div>
+
+		<div class="markdown">
+			<p>As you might&rsquo;ve noticed already, I spend quite a lot of time thinking about the way we think when we choose this or that way to solve problems and engineer things against risk. Another brief note on the subject, picking up metaphors from some twitter discussion I&rsquo;ve loved.</p>
+
+<p>There are two metaphors for resiliency and risk management in traditional engineering — the <strong>NASA way</strong> and the <strong>US Navy way</strong>. I’m not entirely sure how they reflect reality, given the story of Apollo Guidance Computer’s design, but they’re very valid to make the point.</p>
+
+<p><img src="/media/1*mXBfqkGf0NwRmS292trpIQ.jpeg" alt="" /></p>
+
+<ul>
+<li><strong>NASA way</strong> is about provably correct systems, consistent engineering, repeatable practices and forbidding certain system behaviors that impose great risk, or working around it with systematic redundancy. It’s expensive, tedious, because the cost of <em>any</em> mistake is fatal, but unpredictable events can be modeled and designed against.</li>
+<li><strong>US Navy way</strong> is all about keeping personnel, processes, and tools in shape that helps manage SNAFU in the most efficient way with the shortest time to recovery, where unpredictable events are <em>that</em> unpredictable.</li>
+</ul>
+
+<p>When applied to modern computer engineering and security, we’ve barely been thorough enough to go full-on NASA on many things, and too quickly jumped to US Navy way for things we’ve barely learned to cope with.</p>
+
+<p>This is the paradox that kept me intrigued for years. NASA way makes design mistakes fatal, where US Navy way converts design mistakes into performance/expenditure penalty of some kind. The reason why computer (and specifically, security) engineering intuitively shifted to the latter is fairly obvious if you look at it from this model:</p>
+
+<blockquote>
+<p>Fighting against laws of nature is far more analytical process than fighting against the unknown, non-deterministic adversary.</p>
+</blockquote>
+
+<p>If you can model most of the risks and each failure teaches you to model better - sooner or later you will reach the surface of the moon. But can you model a civil war unfolding in a country populated by people you don&rsquo;t understand? Not really.</p>
+
+<p>Large-scale engineering intuitively picked the 2nd approach because it&rsquo;s:</p>
+
+<ul>
+<li>More cost-effective in short term,</li>
+<li>Iterative and dynamic,</li>
+<li>Faster time to partial solution,</li>
+<li>Failure is always partial, too.</li>
+</ul>
+
+<p>But this has a few tradeoffs.</p>
+
+<ul>
+<li><strong>Trade-off 1</strong>. Most of the uncertainty of modern engineering comes from shitty engineering, not some magical source of randomness, and the more shitty engineering we flood the market with, the less infrastructures and defenses are manageable and more ad-hoc they end up being. Cost optimization leads us to more JS programmers, but when we strive for reliability, we end up spending more on massive online, on-call, holistic security engineering and ops.</li>
+<li><strong>Tradeoff 2</strong>. We often forget that US Navy still relies on plenty of advanced and reliable technology constructed the NASA way. The baseline for situational awareness is being able to get good data, and apply reaction tactics with predictable tools with predictable results. We rely on Navy-engineered tools as if they&rsquo;re NASA-engineered, and then you build your core infrastructure on tools that were well-designed ad-hoc solutions to someone else&rsquo;s problem.</li>
+</ul>
+
+<p>In practice, the designs are rarely 100% Navy or 100% NASA. But when design choices are being made - it makes sense to look at the risks when choosing the design style - what exactly are you engineering against? Can it be modelled precisely via a simple equation or managing complexity requires real-time resource allocation rather than pre-designing things?</p>
+
+		</div>
+
+
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>You have reached the end of this page, so why don't you head back <a href="/">home</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>
