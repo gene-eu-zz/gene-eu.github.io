@@ -60,14 +60,11 @@ You can fail only once .
 You can <a href="https://readfomag.com/2015/12/how-opsec-helped-catch-the-worlds-most-wanted-drug-kingpin/">fail</a>  <a href="https://medium.com/@thegrugq/the-rise-and-fall-of-the-tunnel-rat-king-58352d4f2f65">only</a>  <a href="https://medium.com/@thegrugq/the-futile-fugitive-4d909aee7c02">once</a> .</p>
 </blockquote>
 
-<p>To prevent OPSEC failures, we’re constructing hi-tech clutches to human problems, frequently without trying to understand the nature of the problem. Enforcing good behavior technically works, but not understanding true nature of underlying failures leaves a lot of blank spaces in our models.</p>
+<p>To prevent OPSEC failures, we’re constructing hi-tech clutches to human problems, frequently without trying to understand the nature of the problem. Enforcing good behavior technically works, but lack of understanding of true nature of underlying failures leaves a lot of blank spaces in our models.</p>
 
-<p>This post is an attempt to approach these problems from an angle, somewhat untypical for security discussions. Because otherwise, all that’s left is, actually, silence:</p>
+<p>This post is an attempt to approach these problems from a somewhat unusual angle: human behavior.</p>
 
-<p><img src="/media/secrets-00.png" alt="" />
-<div align="center"><small>But if do you have to talk — there’s a lot you have to think about first.</small></div></p>
-
-<h2 id="secrecy-failure-as-a-spherical-cow">Secrecy failure as a spherical cow</h2>
+<h2 id="secrecy-failure-a-simple-scenario">Secrecy failure: a simple scenario</h2>
 
 <p>Let’s conduct a small mental experiment on how evolution (degradation) of secrecy happens within a small group:</p>
 
@@ -77,19 +74,19 @@ You can <a href="https://readfomag.com/2015/12/how-opsec-helped-catch-the-worlds
 <li>They get instructed to use e-mail only with PGP</li>
 </ul>
 
-<h3 id="step-1-involuntary-traitor">Step 1. Involuntary traitor</h3>
+<h4 id="step-1-involuntary-traitor">Step 1. Involuntary traitor</h4>
 
-<p><strong>Phase 1:</strong> Set up</p>
+<p><strong>Set up</strong></p>
 
-<p>We’ve set our communications channels, users exchanged keys and right now everyone’s fine.</p>
+<p>We’ve set our communications channels, users exchanged keys correctly and right now everyone’s fine.</p>
 
-<p>Based on (rather paranoid) policy, to communicate to his secretive peers, users has to type keychain password on e-mail client’s start and key password when encrypting the message.</p>
+<p>Based on (rather paranoid) policy, to communicate to his secretive peers, users has to type keychain password on e-mail client’s start and key password when encrypting/decrypting the message.</p>
 
-<p><strong>Phase 2:</strong> Add comfort</p>
+<p><strong>Add comfort</strong></p>
 
-<p>To operate efficiently, the user requires convenient e-mail app across all platforms. More devices — bigger attack surface. Risk grows, but not drastically.</p>
+<p>To operate efficiently, the user requires convenient e-mail app across all platforms. More devices — bigger attack surface. Risk grows, but not drastically. User is still compliant to the policy.</p>
 
-<p><strong>Phase 3:</strong> Add some real-world circumstances</p>
+<p><strong>Add some real-world circumstances</strong></p>
 
 <p>Now, User X goes on holiday and takes pictures of nice landscapes with his cellphone and his wife asks him to send her the pictures. Over e-mail to her regular Gmail account.</p>
 
@@ -102,90 +99,74 @@ You can <a href="https://readfomag.com/2015/12/how-opsec-helped-catch-the-worlds
 
 <p>Which is basically the same outcome — user X gets introduced to a workflow where everything is simpler, you don’t have to input keychain password, you don’t have to limit yourself to counterparts within secrecy groups.</p>
 
-<p>Or, in much simpler case, User X forgets to tick the ‘encrypt’ checkbox, and User Y accepts and continues communication.</p>
+<p>Or, in much simpler and more realistic case, User X forgets to tick the ‘encrypt’ checkbox, and User Y accepts and continues communication.</p>
 
 <p><strong>This is where the fun starts</strong>.</p>
 
-<h3 id="step-2-induction">Step 2. Induction</h3>
+<h4 id="step-2-induction">Step 2. Induction</h4>
 
 <p>Now, let’s expand our mental experiment and see how this phenomenon spreads to the group.</p>
 
-<blockquote>
-<p>We all know that groups just tend to somehow lower their security standards when some minor part of the group ignores them.</p>
-</blockquote>
+<p>It&rsquo;s typical for groups to slightly lower their security standards when some minor part of the group lowers them. If it&rsquo;s gradual degradation rather than full neglect, it could go unnoticed.</p>
 
 <p>Lately, when reading <a href="https://medium.com/@nntaleb/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15">N.N. Taleb’s “The Most Intolerant Wins”</a> , which partially inspired this post, some of the ideas felt really familiar: once there’s sufficient amount of people rejecting secrecy, the policy goes bust and, at best, becomes a deceptive formality.</p>
 
-<p>Taleb’s post beautifully outlines why:</p>
+<p>It happens because if User X with low discipline will fail to comply to secrecy sooner or later and will give it up completely, User Y, without such discipline problems with his own behavior will still have to give up the discipline to talk to User X.</p>
 
-<blockquote>
-<p><em>User X with low discipline will fail to comply to secrecy sooner or later and will give it up completely, but User Y, without such discipline problems with his own behavior will still have to give up the discipline to talk to User X.</em></p>
-</blockquote>
-
-<p>Not only such laziness is contagious (being bad example to others), at some point even disciplined members will have to give up secrecy to contact non-disciplined ones.</p>
+<p>Not only such misconduct is contagious (being bad example to others), at some point even disciplined members will have to give up secrecy to contact non-disciplined ones or excommunicate them.</p>
 
 <p>What happens is just more subtle, less visible version of ‘ <a href="https://www.theguardian.com/lifeandstyle/2014/may/24/this-column-change-life-what-the-hell-effect">what the hell effect</a> ’, where a conscious decision to give up security regime never happened: people would just convert one-by-one, using an inverse version of <a href="https://en.wikipedia.org/wiki/Network_effect">network effect</a> .</p>
 
-<p>What introduced the problem? Availability of option in the first place. Whenever the choice is available, sooner or later this choice will be made in the least conscious fashion.</p>
+<p>What introduced the problem? I believe, availability of option in the first place. Whenever the choice is available, sooner or later this choice will be made in the least conscious fashion.</p>
 
-<h3 id="step-n-failure">Step N. Failure.</h3>
+<h4 id="step-n-failure">Step N. Failure.</h4>
 
 <p><img src="/media/secrets-01.jpeg" alt="" /></p>
 
 <p>One way or another, the group will break secrecy bad enough to get uncovered by adversaries. In case of this man with a fine moustache, it ain’t no good.</p>
 
-<h2 id="conclusions">Conclusions</h2>
+<h2 id="behind-the-scenes">Behind the scenes</h2>
 
 <p>Fixing human behavior with more flexible or more friendly technology does not help, security-wise. Enforcing consistent behavior is nice when you’re drug kingpin and everyone is afraid of you.</p>
 
-<p>What should we do about it? Think, then do.</p>
+<p>What can we do about it? Understand the problems first.</p>
 
-<h3 id="flexibility-problem">Flexibility problem</h3>
+<h4 id="flexibility-problem">Flexibility problem</h4>
 
-<p>Doesn’t it<strong>feel</strong>that having both encrypted and regular e-mail is more flexible? It is so, in absolutely cold rational terms.</p>
+<p>Doesn’t it <strong>feel</strong> that having both encrypted and regular e-mail is more flexible? It is so, in absolutely cold rational terms.</p>
 
 <p>But tired brain knows no choice, it jumps to default, lazy behavior:</p>
 
 <ul>
 <li>Some users will sooner or later ignore the extra 1–2 clicks needed to implement good security practice, because it will work without them, and the group doesn’t comply with the rules too strictly: unencrypted e-mails will be opened and read.</li>
-<li>User will sooner or later go<strong>plaintext by default</strong>because most of his addressees are either outside or gave up security policy anyway.</li>
+<li>User will sooner or later go <strong>plaintext by default</strong> because most of his contacts are either outside secrecy ring or gave up security policy anyway.</li>
 </ul>
 
-<h3 id="usability-problem">Usability “problem”</h3>
+<h4 id="usability-problem">Usability “problem”</h4>
 
-<p>Common knowledge suggests that security impairs usability and ease of use. Specifically when human actions are required to keep the security protocol consistent.</p>
+<p>Security industry mythology suggests that security impairs usability and ease of use. Specifically when human actions are required to keep the security protocol consistent.</p>
 
-<p>Actually, I don’t think there’s anything wrong with having lesser “usability” in some cases. <a href="https://www.pace.edu/sites/default/files/files/honors-college/best-of/gianmarco-armenia.pdf">Cognitive strain for non-silky-smooth interaction induces slower, more attentive thinking patterns and is generally good for maintaining consistent behavior</a>.</p>
+<p>I don’t think there’s anything wrong with having lesser “usability” in some cases. <a href="https://www.pace.edu/sites/default/files/files/honors-college/best-of/gianmarco-armenia.pdf">Cognitive strain for non-silky-smooth interaction induces slower, more attentive thinking patterns and is generally good for maintaining consistent behavior</a>.</p>
 
-<p>Still, there&rsquo;s a level of un-usability that is an impediment to doing things well, which gets security controls in regular applications circumvented. So that&rsquo;s&hellip;</p>
+<p>Still, there&rsquo;s a level of anti-usability that is an impediment to doing things well, which gets security controls in regular applications circumvented. So that&rsquo;s&hellip;</p>
 
-<h3 id="why-we-need-dedicated-tools">&hellip; why we need dedicated tools</h3>
+<h4 id="why-we-need-dedicated-tools">&hellip; why we need dedicated tools</h4>
 
 <p>Dedicated secure messengers and file-sharing tools is a simple answer to the problem:</p>
 
 <ul>
 <li>They’re explicit and they have <a href="https://www.owasp.org/index.php/Establish_secure_defaults">safe defaults</a> and they <a href="https://www.owasp.org/index.php/Fail_securely">fail safely</a> .</li>
 <li>Application architecture is driven by security demands, security is not just an additional feature.</li>
+<li>Inevitably because of the above, security gets integrated into the user flow with sufficient level of usability.</li>
 </ul>
 
-<p>They do deliver their guarantees, at cost of usability (which, as I suggested previously, is not that bad effect if it doesn&rsquo;t ruin the experience totally) and yet another app sitting on your phone / desktop.</p>
+<p>They do deliver their guarantees, at cost of some usability (which, as I suggested previously, is not that bad effect if it doesn&rsquo;t ruin the experience totally) and yet another app sitting on your phone / desktop.</p>
 
-<h3 id="protecting-communication-content-does-not-hide-it">Protecting communication content does not hide it</h3>
+<h4 id="managing-user-behavior">Managing user behavior</h4>
 
-<p>Having Signal Messenger suggests you have something to hide, right? And what frequently complements minor OPSEC failures? Escalation.</p>
+<p>Security and secrecy have more to do with human behavior than with engineering. There always will be vulnerabilities, stronger and weaker communication protocols, and so on. Yet, somehow, a significant portion of security incidents do not require the adversary to possess some unique knowledge — just basic understanding of human beings and a bunch of outdated CVEs.</p>
 
-<p><img src="/media/secrets-02.png" alt="" />
-( <a href="https://xkcd.com/538/">XKCD #538</a> )</p>
-
-<p>Covert communication, hidden within regular communication stream, is an efficient way for plausible deniability and protection against <a href="https://en.wikipedia.org/wiki/Rubber-hose_cryptanalysis">rubber-hose crypto-analysis</a> . If, by a happy coincidence, owner of your messaging / exchange solution does not accumulate metadata ( <a href="https://whispersystems.org/bigbrother/eastern-virginia-grand-jury/">Signal mostly doesn’t</a> , are you sure about the rest?).</p>
-
-<p>In many risk models, <em>protecting knowledge of the secret’s existence is as important as the content of the secret</em>.</p>
-
-<h3 id="managing-user-behavior">Managing user behavior</h3>
-
-<p>Security and secrecy have more to do with human behavior than with engineering. There always will be vulnerabilities, stronger and weaker communication protocols, etc. Yet, somehow, a significant portion of security incidents do not require the adversary to possess some unique knowledge — just basic understanding of human beings and a bunch of outdated CVEs.</p>
-
-<p>Addressing these risks is grounded in understanding that human behavior is far from being rational, and when multiplied within a group, simple errors of human decision-making amplify to disastrous effects. Based on my experience, no amount of education and awareness prevents these effects,- but clever <a href="https://www.chicagobooth.edu/news/2008ManCon/01-thaler.aspx">choice architecture</a> and constant behavior monitoring do.</p>
+<p>Addressing these risks relies on understanding that human behavior is far from being rational. When we&rsquo;re looking at a group, simple errors of human decision-making amplify to disastrous effects. Based on my experience, no amount of education and awareness prevents these effects,- but clever <a href="https://www.chicagobooth.edu/news/2008ManCon/01-thaler.aspx">choice architecture</a> and constant behavior monitoring do.</p>
 
 <p>If you want one TL;DR you want — take this:</p>
 
@@ -193,6 +174,11 @@ You can <a href="https://readfomag.com/2015/12/how-opsec-helped-catch-the-worlds
 <p>Users of your system might be smart, trained and motivated. But at some point in time, they will be tired, their conscious decision making resources depleted, and they will fail the secrecy regime. Unless you design your security system to be strong with lazy thinkers and distracted minds.</p>
 </blockquote>
 
+			<hr>
+			Other posts:<br>
+			<br>
+
+			→ <a href="https://ivychapel.ink/posts/why-decentralized-social-services-fail-so-far/">Why decentralized social services fail (so far)</a> 
 		</div>
 
 
