@@ -39,8 +39,10 @@ Many of my peers struggle to the very day, so here you go:</description>
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</guid>
-      <description>As you might&amp;rsquo;ve noticed already, I spend quite a lot of time thinking about the way we think when we choose this or that way to solve problems and engineer things against risk. Another brief note on the subject, picking up metaphors from some twitter discussion I&amp;rsquo;ve loved.
-There are two metaphors for resiliency and risk management in traditional engineering — the NASA way and the US Navy way. I’m not entirely sure how they reflect reality, given the story of Apollo Guidance Computer’s design, but they’re very valid to make the point.</description>
+      <description>I spend quite a lot of time thinking about the way we think.
+In particular, I think a lot about the way we make engineering choices that mitigate risks. So, this is another brief note on the subject, following the beautiful metaphor I overheard:
+ There are two metaphors for resiliency and risk management in traditional engineering — the NASA way and the US Navy way.
+  NASA way is about provably correct systems, consistent engineering, repeatable practices and forbidding certain system behaviors that impose great risk, or working around it with systematic redundancy.</description>
     </item>
     
     <item>
@@ -49,18 +51,8 @@ There are two metaphors for resiliency and risk management in traditional engine
       <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://ivychapel.ink/posts/why-decentralized-social-services-fail-so-far/</guid>
-      <description>Once in a while I read about another decentralized social network, all filled with great ideas, strong privacy features, interesting cryptographic defenses against data misuse and a mission to finally disrupt everything social as we know it. Seeing new ones come and go, there are plenty of ways in which they fail, but the discussion around them almost always misses the reason “why”, focusing on “how” instead (which is merely stating the obvious).</description>
-    </item>
-    
-    <item>
-      <title>SkyNet will not destroy humanity; poor code might</title>
-      <link>https://ivychapel.ink/posts/skynet-vs-poor-code/</link>
-      <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ivychapel.ink/posts/skynet-vs-poor-code/</guid>
-      <description>NOTE (August 2019) : it takes only a few years for some of the obvious things you see to become reality. Feeling a prophet of “Told you so” preaching is not rewarding, it feels all bad that these prophecies come true
- Lately, with increasing frequency, I became subject to real-world effects of bad software (yes, that one which is eating the world, supposedly).
-A flight could not depart for 70 minutes, because remote airport wouldn’t register arriving passenger’s documents, due to ‘some security certificate problem’ (someone forgot to update pinned certificate?</description>
+      <description>Once in a while I read about another decentralized social network, full of great social ideas, strong privacy features, interesting cryptographic defenses against data misuse. The new underdog is typically on a mission to finally disrupt &amp;ldquo;centralized&amp;rdquo; social media platform as we know it, but in a nice fair way. Then it goes away into oblivion again.
+Discussion around how these decentralized platforms fail almost always misses the reason “why”, focusing on the technical “how” instead.</description>
     </item>
     
     <item>
