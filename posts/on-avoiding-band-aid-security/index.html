@@ -4,22 +4,37 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>On avoiding band-aid security - ivychapel.ink</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="On avoiding band-aid security" />
-<meta property="og:description" content="Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.
-Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
+<meta property="og:description" content="Applying band-aid to open wounds is an important step in preventing further infection, yet it rarely addresses the underlying issue.
+Some of my work duties as an executive in a security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
 The other day I was talking to a customer, and a familiar narrative surfaced:
- “We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents." />
+ “We’ve had a pentest from company X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ivychapel.ink/posts/on-avoiding-band-aid-security/" />
 <meta property="article:published_time" content="2019-01-30T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2019-01-30T00:00:00&#43;00:00"/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="On avoiding band-aid security"/>
-<meta name="twitter:description" content="Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.
-Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
+<meta name="twitter:description" content="Applying band-aid to open wounds is an important step in preventing further infection, yet it rarely addresses the underlying issue.
+Some of my work duties as an executive in a security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
 The other day I was talking to a customer, and a familiar narrative surfaced:
- “We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents."/>
+ “We’ve had a pentest from company X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents."/>
 <link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" /><script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script><script src="/js/main.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" /><script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script type="text/javascript">
+	  var _paq = window._paq || [];
+	   
+	  _paq.push(['trackPageView']);
+	  _paq.push(['enableLinkTracking']);
+	  (function() {
+	    var u="//pwk.cossacklabs.com/";
+	    _paq.push(['setTrackerUrl', u+'matomo.php']);
+	    _paq.push(['setSiteId', '6']);
+	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+	  })();
+	</script>
+	
+	<script src="/js/main.js"></script>
 </head>
 
 <body>
@@ -53,21 +68,21 @@ The other day I was talking to a customer, and a familiar narrative surfaced:
 		<div class="markdown">
 			
 
-<p>Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.</p>
+<p>Applying band-aid to open wounds is an important step in preventing further infection, yet it rarely addresses the underlying issue.</p>
 
-<p>Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.</p>
+<p>Some of my work duties as an executive in a <a href="https://www.cossacklabs.com">security products company</a> is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.</p>
 
 <p>The other day I was talking to a customer, and a familiar narrative surfaced:</p>
 
 <blockquote>
-<p>“We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents. We’re considering to go to court against X, and we’ve had to fire our CTO, because how could he have let this happen to us after all we’ve done.”</p>
+<p>“We’ve had a pentest from company X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents. We’re considering to go to court against X, and we’ve had to fire our CTO, because how could he have let this happen to us after all we’ve done.”</p>
 </blockquote>
 
-<p>Knowing company X, I have no reasons to doubt the depth and quality of the assessment (in fact, they are one of the rare species in the pentesting world — they try to provide not only “immediate relief” advise, but point out at least some systematic flaws and approaches to systematic mitigation). Yet, while the whole idea of one-time intervention to providing the diagnosis of most risky components of the system is commonplace now, how this diagnosis is used to improve security posture is what rarely gets discussed.</p>
+<p>Knowing company X, I have no reasons to doubt the depth and quality of the assessment (in fact, they are one of the rare species in the pentesting world — they not only provide “immediate relief” advise, but point out at least some systematic flaws and approaches to systematic mitigation). Yet, while the whole idea of one-time intervention to providing the diagnosis of most risky components of the system is commonplace now, how this diagnosis is used to improve security posture is what rarely gets discussed.</p>
 
 <p>The typical result of any penetration testing is a list of detected vulnerabilities. At best, they come with generic mitigation advice and pointing out general flaws in the system’s design and the company’s technical processes.</p>
 
-<p>When analyzed systematically and honestly, any large picture of disjointed diagnostic signals from a system would converge into several root causes, that govern system’s behavior.If the picture doesn’t — it’s either not a system at all, or the analysis is wrong.Without going into pitfalls of how typical analysis fails, one can see that any current state of corporate technical infrastructure is governed by processes, humans, machines, and the state of machines that humans inflict upon them (or allow to emerge).</p>
+<p>When analyzed thoroughly, any large picture of disjointed diagnostic signals from a system would converge into several root causes, that govern system’s unfit behavior. If the picture doesn’t — it’s either not a system at all, or the analysis is wrong. Without going into pitfalls of how typical analysis fails, one can see that any current state of corporate technical infrastructure is governed by processes, humans, machines, and the state of machines that humans inflict upon them (or allow to emerge).</p>
 
 <p><strong>Contemplate this for a second</strong>: what if, in your next security planning effort, you would have spent time on identifying the root causes for the last set of security problems detected by penetration testing, and find solutions to them, instead of band-aiding them?</p>
 
@@ -87,11 +102,11 @@ The other day I was talking to a customer, and a familiar narrative surfaced:
 
 <p><img src="/media/0*JBqcM2UVceuLPfIo.gif" alt="" /></p>
 
-<p>Now, let’s see what happens when you find different people to do the same job? Their judgments are flawed in a different way and you’re back to base 1. Band-aid didn’t work so well and you’re still ignorant to root causes.</p>
+<p>Now, let’s see what happens when you find different people to do the same job? Their judgments are flawed in a different way and you’re back to base 1. Band-aid didn’t work and you’re still ignorant to root causes.</p>
 
-<h2 id="what-if-as-a-mental-exercise-we-would-try-to-reduce-or-eliminate-risk-causes-instead-of-band-aiding-their-manifestations">What if, as a mental exercise, we would try to reduce (or eliminate) risk causes instead of band-aiding their manifestations?</h2>
+<h2 id="risk-management-vs-band-aiding">Risk management vs band-aiding</h2>
 
-<p>Consider a hypothesis, for a second:</p>
+<p>What if, as a mental exercise, we would try to reduce (or eliminate) risk causes instead of band-aiding their manifestations? Consider a hypothesis, for a second:</p>
 
 <blockquote>
 <p>Processes (be it formal, formalized in code or informal culture) are the root cause of any security incident.</p>
