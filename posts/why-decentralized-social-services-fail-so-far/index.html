@@ -8,8 +8,8 @@
 Discussion around how these decentralized platforms fail almost always misses the reason “why”, focusing on the technical “how” instead." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ivychapel.ink/posts/why-decentralized-social-services-fail-so-far/" />
-<meta property="article:published_time" content="2017-10-16T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2017-10-16T00:00:00&#43;00:00"/>
+<meta property="article:published_time" content="2017-10-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-10-16T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Why decentralized social services fail (so far)"/>
 <meta name="twitter:description" content="Once in a while I read about another decentralized social network, full of great social ideas, strong privacy features, interesting cryptographic defenses against data misuse. The new underdog is typically on a mission to finally disrupt &ldquo;centralized&rdquo; social media platform as we know it, but in a nice fair way. Then it goes away into oblivion again.
@@ -47,6 +47,14 @@ Discussion around how these decentralized platforms fail almost always misses th
 				<strong style="font-weight:300">~/</strong><a href="/posts">posts</a>
 			</li>
 			
+			<li>
+				<strong style="font-weight:300">~/</strong><a href="/topics">tags</a>
+			</li>
+			
+			<li>
+				<strong style="font-weight:300">~/</strong><a href="/about">about</a>
+			</li>
+			
 		</ul>
 		<nav class="nav social">
 			<ul class="flat"><a href="https://twitter.com/9gunpi" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.linkedin.com/in/eugene-pilyankevich-59a31655" title="LinkedIn"><i data-feather="linkedin"></i></a></ul>
@@ -58,105 +66,82 @@ Discussion around how these decentralized platforms fail almost always misses th
 
 		<div class="post-header">
 			<h1 class="title">Why decentralized social services fail (so far)</h1>
-			<div class="meta">Oct 16, 2017</div>
+			<div class="meta">Oct 16, 2017
+			Tags: 
+			
+				
+								
+								#<a href="/tags/musings">musings</a>
+								
+								#<a href="/tags/engineering">engineering</a>
+								
+				
+			
+		</div>
 		</div>
 
 		<div class="markdown">
-			
-
-<p>Once in a while I read about another decentralized social network, full of great social ideas, strong privacy features, interesting cryptographic defenses against data misuse. The new underdog is typically on a mission to finally disrupt &ldquo;centralized&rdquo; social media platform as we know it, but in a nice fair way. Then it goes away into oblivion again.</p>
-
+			<p>Once in a while I read about another decentralized social network, full of great social ideas, strong privacy features, interesting cryptographic defenses against data misuse. The new underdog is typically on a mission to finally disrupt &ldquo;centralized&rdquo; social media platform as we know it, but in a nice fair way. Then it goes away into oblivion again.</p>
 <p>Discussion around how these decentralized platforms fail almost always misses the reason “why”, focusing on the technical “how” instead.</p>
-
 <p>I believe the “why” of these failures is not technical. It often feels like distributed and federated services provide better resiliency and privacy than typical star-topology systems. And &ldquo;better&rdquo; feels like &ldquo;it should replace current solutions to the problem&rdquo;, but in case of decenstralized social networks it&rsquo;s just irrelevant.</p>
-
 <p>Let&rsquo;s try to figure out why.</p>
-
 <h2 id="walled-gardens-are-evil">Walled gardens are evil</h2>
-
 <p>(but most of us tend to live in one of them anyway)</p>
-
 <p>Facebook et al. provide and maintain huge, single-point-of-entry, privately  owned walled gardens with hostile privacy policies and yet they successfully serve billions of users, attracting some of the best engineering talent along the way. They are prone to privacy abuse and terrible data misuse, yet your mom doesn&rsquo;t jump on blockchain-powered twitter clone.</p>
-
 <p>Why is that?</p>
-
 <p>We’ve been gradually learning about building and maintaining better decentralized systems for half a century: e-mail, USENET, UUCP (bang address notation!), XMPP, IRC, running on top of decentralized protocols on every layer of communication — ARP, OSPF, BGP, etc.</p>
-
-<p><img src="/media/1*S4JowrtvkS92gvh6o8ltmw.jpeg" alt="" />
-<div align="center"><small>(Convenient client for a real-time chat service?)</small></div></p>
-
+<p><img src="/media/1*S4JowrtvkS92gvh6o8ltmw.jpeg" alt=""></p>
+<!-- raw HTML omitted -->
 <p>But having better technology doesn&rsquo;t mean you&rsquo;re better at solving problems people have.</p>
-
 <h2 id="incentives-to-build">Incentives to build</h2>
-
 <p>I believe resiliency, security or public trust are 2nd order priorities for building a social network, and we&rsquo;ll digress a bit to see why.</p>
-
 <p>Television is an efficient medium for mass broadcasting, cinema is efficient medium for repeatedly earning revenue from once-staged performance.</p>
-
 <p>Television didn’t kill the cinema, cinema didn’t kill theatre: there are still people attending both forms, then there’s much wider audience that is bound to a shiny TV screen. It’s not about the form, or the content that TV is transmitting. It’s all about the content consumption scheme and the incentive to build epic infrastructure for delivery: making a single node broadcast uniform data to a number of users, who are sitting on a couch and staring into the screen without having to make a conscious choice. It matches the lazy human behavior more, and it enables broadcast network to control and lead their attention - which can be sold. Still, some of avid TV consumers still go to cinemas, some of cinema-lovers still go to theatres as well. But the money is on TV.</p>
-
 <p>With the Internet, we went through the same trajectory: Facebook didn’t kill LiveJournal, Jabber/ICQ didn&rsquo;t kill IRC, Facebook messenger didn&rsquo;t kill Jabber or Skype. But they made things repeatedly easier for users and wrapped them in a business model sufficiently profitable for the operator to constantly improve and seek new ways to lock people in.</p>
-
 <p>Evolution of a service that is driven by incentive to keep your attention locked happens faster and more efficiently than decentralized system that has a hard time to agree on it&rsquo;s spec improvement over a year. Simply because there&rsquo;s a lot of money in keeping people&rsquo;s attention, and there&rsquo;s even more money in promising investors that the network operator will be capturing and selling visitor&rsquo;s attention more efficiently down the line.</p>
-
 <p>Is there any money in building decentralized social network? Is it sufficient to motivate a huge team of engineers to constantly improve it? Is there a central mission statement that allows engineers to quickly agree on design changes?</p>
-
 <p>For Facebook, the challenge is &ldquo;how to make it profitable and get away with the repercussions&rdquo;. For decentralized social network, it is &ldquo;how to make enough people join for this project to even make sense&rdquo;.</p>
-
 <h2 id="incentives-to-operate-and-maintain">Incentives to operate and maintain</h2>
-
 <p>Decentralization is hard to implement right, but its even harder to make network members keep it online, keep running decentralized network nodes a priority, consistently update code to stay compatible, and maintain it in coordinated fashion.</p>
-
 <p>For Facebook, having it&rsquo;s systems operational is directly tied to ads shown, DAU, and other metrics that impact profit. For our decentralized social network, the struggle is &ldquo;how to incentivize everyone to form and maintain the basic network&rdquo;.</p>
-
 <p>When a node in a decentralized social network fails because of some serious technical issue that takes days to fix (because you don&rsquo;t have enough engineers and every node failure can be unique to this very node), users will flee. If there’s no incentive for operator to operate or fix the node — sooner or later he’ll go ‘oh screw it’. So your mom tries the amazing decentralized experience and goes back to facebook.</p>
-
 <p>The intuition behind &ldquo;decentralized is good&rdquo; comes from the way Internet itself is built. But there&rsquo;s a good difference - if you operate an ISP and break BGP peering, you’re excommunicating yourself instantly, can’t provide services, and lose money or availability of your important assets. Because you don’t get to have responsibility of Internet routing ‘for fun and good social causes’. In some worst cases you excommunicate someone else and get booed by half of the Internet, but that’s another story.</p>
-
 <p>But centralized infrastructure is much easier to maintain and control. Having a CDN, load balancing and request routing infrastructure at the front, then routing and managing properly redundant decoupled services in the back is a fine challenge.</p>
-
 <h2 id="web-is-decentralized-centralized-protocol">Web is decentralized centralized protocol</h2>
-
 <p>(and we all want our stuff to happen in browser)</p>
-
 <p>HTTP and surrounding protocols make great stack for border integration — point of simple compatibility between complex systems. For this purpose it’s quite  efficient. Being a border integration protocol, HTTP enables building rich user experiences cost-efficiently.</p>
-
 <p>However, by its very design, the Web incentivizes centralization as much as TV does.</p>
-
 <p>Controlled, comfortable and predictable experience attracts users: millions surrender to the magic of the Apple ecosystem, where everything is well-thought and “seamlessly” integrated (at least if you don’t dig deep enough). Even in federated systems like the oldschool e-mail, in the &ldquo;everything in browser era&rdquo; few giants win by being able to endlessly iterate features and finally you end up exchanging 40% of your e-mail traffic with just a few large mail systems.</p>
-
 <p>So, if we&rsquo;re on the Web - we inevitably end up getting into a centralized system, with single entrypoint.</p>
-
 <p>Then, after some time, the availability of your social graph starts to weigh in. If your less technically savvy friends and your mom, are on Facebook,— you either act as a luddite recluse, or you’re going to be on Facebook too, no matter how much you dislike it.</p>
-
 <p><strong><code>&lt;Captain Obvious&gt;</code></strong></p>
-
 <blockquote>
 <p>The attention of the audience in the walled harden is as easy to sell as TV. This is very practical — new medium, familiar business. No risk of iterating something completely new and not being able to sell it, easy to incentivize through the very design of the “new medium”, as we still call the decades-old Internet.</p>
 </blockquote>
-
 <p><strong><code>&lt;/Captain Obvious&gt;</code></strong></p>
-
 <p>So, on one side you can attract more people, on the other you can sell them well enough to constantly improve the retention of their attention.</p>
-
 <h2 id="incentives-drive-opportunities-not-technologies">Incentives drive opportunities, not technologies.</h2>
-
 <p>Unfortunately for an engineering idealist, capital/impact distribution affects incentives and risk far more than privacy, resiliency and efficiency.</p>
-
 <p>Most people will stay within current ecosystem, and will be absolutely fine supporting star topologies and walled gardens. Some, of course, will flee and create small closed communities around products and services that are decentralized. I suspect, these communities will be absolutely charming to participate in. And they will not survive long enough to matter. I’ve joined a few, because of social graph. But when they fall apart — somehow, I believe, we’ll catch up on Twitter anyway, to figure out where the next safe haven is.</p>
-
 <p>And this leads to a my point.</p>
-
 <p><strong>Brilliant technical solutions are solutions to problems people want to solve, not the problems that we actually have. As soon as there will be a serious problem, which can be solved by decentralized or federated social service — it will be solved graciously, designs are well known already. Until then, we will adapt to the system that is bent towards incentives that are important right now.</strong></p>
-
 <p>Until we find the right incentives for distributed social networks to exist, they won&rsquo;t.</p>
 
+
+
+
+
+			
 			<hr>
 			Other posts:<br>
 			← <a href="https://ivychapel.ink/posts/on-keeping-secrets-in-comfort/">On keeping secrets in comfort</a><br>
 
 			→ <a href="https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/">Two types of engineering for resiliency</a> 
+
+			
 		</div>
+
+
 
 
 	</div>

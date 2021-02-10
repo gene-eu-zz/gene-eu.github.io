@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on ivychapel.ink</title>
+    <link>https://ivychapel.ink/tags/security/</link>
+    <description>Recent content in security on ivychapel.ink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivychapel.ink/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On avoiding band-aid security</title>
+      <link>https://ivychapel.ink/posts/on-avoiding-band-aid-security/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/on-avoiding-band-aid-security/</guid>
+      <description>Applying band-aid to open wounds is an important step in preventing further infection, yet it rarely addresses the underlying issue.
+Some of my work duties as an executive in a security products companyis helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
+The other day I was talking to a customer, and a familiar narrative surfaced:
+ “We’ve had a pentest from company X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents.</description>
+    </item>
+    
+    <item>
+      <title>On keeping secrets in comfort</title>
+      <link>https://ivychapel.ink/posts/on-keeping-secrets-in-comfort/</link>
+      <pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/on-keeping-secrets-in-comfort/</guid>
+      <description>As someone who used to spend a lot of time analyzing how security incidents happen, I frequently think how little, unfortunately, technical peculiarities have to do with most security breaches.
+ Making people keep secrets is very hard. Making groups follow guidelines is laborious. Making secrecy policies work in groups is even harder.
+You can fail only once .
+ To prevent OPSEC failures, we’re constructing hi-tech clutches to human problems, frequently without trying to understand the nature of the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

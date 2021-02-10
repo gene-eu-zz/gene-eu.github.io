@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>risk on ivychapel.ink</title>
+    <link>https://ivychapel.ink/tags/risk/</link>
+    <description>Recent content in risk on ivychapel.ink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivychapel.ink/tags/risk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two types of engineering for resiliency</title>
+      <link>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</guid>
+      <description>I spend quite a lot of time thinking about the way we think.
+In particular, I think a lot about the way we make engineering choices that mitigate risks. So, this is another brief note on the subject, following the beautiful metaphor I overheard:
+ There are two metaphors for resiliency and risk management in traditional engineering — the NASA way and the US Navy way.
+  NASA way is about provably correct systems, consistent engineering, repeatable practices and forbidding certain system behaviors that impose great risk, or working around it with systematic redundancy.</description>
+    </item>
+    
+    <item>
+      <title>On keeping secrets in comfort</title>
+      <link>https://ivychapel.ink/posts/on-keeping-secrets-in-comfort/</link>
+      <pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/on-keeping-secrets-in-comfort/</guid>
+      <description>As someone who used to spend a lot of time analyzing how security incidents happen, I frequently think how little, unfortunately, technical peculiarities have to do with most security breaches.
+ Making people keep secrets is very hard. Making groups follow guidelines is laborious. Making secrecy policies work in groups is even harder.
+You can fail only once .
+ To prevent OPSEC failures, we’re constructing hi-tech clutches to human problems, frequently without trying to understand the nature of the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

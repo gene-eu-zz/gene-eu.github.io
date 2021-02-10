@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>management on ivychapel.ink</title>
+    <link>https://ivychapel.ink/tags/management/</link>
+    <description>Recent content in management on ivychapel.ink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivychapel.ink/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kubler-Ross model for engineers turning into managers</title>
+      <link>https://ivychapel.ink/posts/kubler-ross-model-for-engineers-turning-into-managers/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/kubler-ross-model-for-engineers-turning-into-managers/</guid>
+      <description>Having quickly jumped position ladders in the past, I always had that scary stare in the mirror: “I am not supposed to build new great stuff with my hands anymore”. In my own life, I was lucky to be facing the need to build companies — which is even more challenging. But for many, life turns into endless position hopping in the Dilbert comic.
+Many of my peers struggle to the very day, so here you go:</description>
+    </item>
+    
+  </channel>
+</rss>

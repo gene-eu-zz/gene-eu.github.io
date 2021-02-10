@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ivychapel.ink</title>
@@ -6,9 +6,64 @@
     <description>Recent content in Tags on ivychapel.ink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivychapel.ink/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>housekeeping</title>
+      <link>https://ivychapel.ink/tags/housekeeping/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/housekeeping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://ivychapel.ink/tags/security/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>https://ivychapel.ink/tags/management/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>engineering</title>
+      <link>https://ivychapel.ink/tags/engineering/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risk</title>
+      <link>https://ivychapel.ink/tags/risk/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/risk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>musings</title>
+      <link>https://ivychapel.ink/tags/musings/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/musings/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ivychapel.ink</title>
@@ -6,10 +6,20 @@
     <description>Recent content on ivychapel.ink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivychapel.ink/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unblocking the writer&#39;s block</title>
+      <link>https://ivychapel.ink/posts/unblocking-the-writers-block/</link>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/unblocking-the-writers-block/</guid>
+      <description>For a while I&amp;rsquo;ve been thinking of this blog as an exile for long trains of thought. Laid out in few long sessions. Driven by something that I find interesting enough and amusing enough. This blog is unlikely to carry on like that, and this is my excuse note.
+There have been different stages in my life and career. Some of them felt slow, some of them felt fast, some left room for play, some made me lay.</description>
+    </item>
     
     <item>
       <title>On avoiding band-aid security</title>
@@ -17,10 +27,10 @@
       <pubDate>Wed, 30 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://ivychapel.ink/posts/on-avoiding-band-aid-security/</guid>
-      <description>Applying band-aid to open wounds is an important step in preventing further injury, yet it rarely addresses the illness.
-Some of my work duties as an executive in security products company is helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
+      <description>Applying band-aid to open wounds is an important step in preventing further infection, yet it rarely addresses the underlying issue.
+Some of my work duties as an executive in a security products companyis helping key customers better understand the security challenges they’re going through, and shape the vision for future improvements.
 The other day I was talking to a customer, and a familiar narrative surfaced:
- “We’ve had a pentest from X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents.</description>
+ “We’ve had a pentest from company X, we’ve covered 100% of detected weaknesses, devised long-term security improvement program based on their recommendations, yet, a year after that, we’ve had 2 incidents.</description>
     </item>
     
     <item>
@@ -65,6 +75,17 @@ Discussion around how these decentralized platforms fail almost always misses th
  Making people keep secrets is very hard. Making groups follow guidelines is laborious. Making secrecy policies work in groups is even harder.
 You can fail only once .
  To prevent OPSEC failures, we’re constructing hi-tech clutches to human problems, frequently without trying to understand the nature of the problem.</description>
+    </item>
+    
+    <item>
+      <title>Bio</title>
+      <link>https://ivychapel.ink/about/</link>
+      <pubDate>Mon, 01 Jan 2001 21:37:58 +0530</pubDate>
+      
+      <guid>https://ivychapel.ink/about/</guid>
+      <description>Hi, I&amp;rsquo;m Eugene Pilyankevich.
+I&amp;rsquo;m interested in the way humans think and behave under uncertainty and pressure, because I think that&amp;rsquo;s what life is made of mostly.
+Previously. I&amp;rsquo;ve been around software, networks and information security since I was a kid. Unsurprisingly, most of my professional career revolved around technology: I&amp;rsquo;ve worked as software engineer, systems administrator, security engineer, tech lead, CTO and COO in various companies. For the last decade I&amp;rsquo;ve worked for companies I&amp;rsquo;ve co-founded, because skin in the game keeps you evolving better than any self-help guru or productivity hack.</description>
     </item>
     
   </channel>

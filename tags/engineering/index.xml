@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>engineering on ivychapel.ink</title>
+    <link>https://ivychapel.ink/tags/engineering/</link>
+    <description>Recent content in engineering on ivychapel.ink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivychapel.ink/tags/engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Two types of engineering for resiliency</title>
+      <link>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</link>
+      <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</guid>
+      <description>I spend quite a lot of time thinking about the way we think.
+In particular, I think a lot about the way we make engineering choices that mitigate risks. So, this is another brief note on the subject, following the beautiful metaphor I overheard:
+ There are two metaphors for resiliency and risk management in traditional engineering — the NASA way and the US Navy way.
+  NASA way is about provably correct systems, consistent engineering, repeatable practices and forbidding certain system behaviors that impose great risk, or working around it with systematic redundancy.</description>
+    </item>
+    
+    <item>
+      <title>Why decentralized social services fail (so far)</title>
+      <link>https://ivychapel.ink/posts/why-decentralized-social-services-fail-so-far/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/why-decentralized-social-services-fail-so-far/</guid>
+      <description>Once in a while I read about another decentralized social network, full of great social ideas, strong privacy features, interesting cryptographic defenses against data misuse. The new underdog is typically on a mission to finally disrupt &amp;ldquo;centralized&amp;rdquo; social media platform as we know it, but in a nice fair way. Then it goes away into oblivion again.
+Discussion around how these decentralized platforms fail almost always misses the reason “why”, focusing on the technical “how” instead.</description>
+    </item>
+    
+  </channel>
+</rss>

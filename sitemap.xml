@@ -1,9 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ivychapel.ink/tags/housekeeping/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/posts/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/posts/unblocking-the-writers-block/</loc>
+    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ivychapel.ink/posts/on-avoiding-band-aid-security/</loc>
+    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/security/</loc>
     <lastmod>2019-01-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -13,8 +43,28 @@
   </url>
   
   <url>
+    <loc>https://ivychapel.ink/tags/management/</loc>
+    <lastmod>2019-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/engineering/</loc>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/risk/</loc>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</loc>
     <lastmod>2018-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/musings/</loc>
+    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,35 +73,17 @@
   </url>
   
   <url>
-    <loc>https://ivychapel.ink/posts/skynet-vs-poor-code/</loc>
-    <lastmod>2017-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ivychapel.ink/posts/on-keeping-secrets-in-comfort/</loc>
     <lastmod>2016-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://ivychapel.ink/about/</loc>
+    <lastmod>2001-01-01T21:37:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ivychapel.ink/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ivychapel.ink/posts/</loc>
-    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ivychapel.ink/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ivychapel.ink/</loc>
-    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
