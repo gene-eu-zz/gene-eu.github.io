@@ -3,22 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ivychapel.ink/tags/housekeeping/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+    <loc>https://ivychapel.ink/tags/asymmetry-series/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ivychapel.ink/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/posts/less-obvious-asymmetries/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/musings/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ivychapel.ink/posts/</loc>
-    <lastmod>2021-01-19T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/security/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ivychapel.ink/tags/</loc>
+    <lastmod>2021-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ivychapel.ink/tags/housekeeping/</loc>
     <lastmod>2021-01-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -29,11 +49,6 @@
   
   <url>
     <loc>https://ivychapel.ink/posts/on-avoiding-band-aid-security/</loc>
-    <lastmod>2019-01-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivychapel.ink/tags/security/</loc>
     <lastmod>2019-01-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -60,11 +75,6 @@
   <url>
     <loc>https://ivychapel.ink/posts/two-types-of-engineering-for-resiliency/</loc>
     <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ivychapel.ink/tags/musings/</loc>
-    <lastmod>2017-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>

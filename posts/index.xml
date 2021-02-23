@@ -6,10 +6,21 @@
     <description>Recent content in Posts on ivychapel.ink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivychapel.ink/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Less obvious parts of security asymmetries</title>
+      <link>https://ivychapel.ink/posts/less-obvious-asymmetries/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/less-obvious-asymmetries/</guid>
+      <description>If you’ve been around infosec industry for a while, you might be familiar with an old adage:
+ defender has to get most (if not all) things right to meet his goals, while attacker has to get a few things right and he wins.
+ This is unfair, but the closer you look, the more asymmetries unfold: for example, what exactly does “get things right” mean? It&amp;rsquo;s an interesting mental exercise, so let’s do it together.</description>
+    </item>
     
     <item>
       <title>Unblocking the writer&#39;s block</title>
