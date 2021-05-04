@@ -6,10 +6,28 @@
     <description>Recent content in Tags on ivychapel.ink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivychapel.ink/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>musings</title>
+      <link>https://ivychapel.ink/tags/musings/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/musings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time</title>
+      <link>https://ivychapel.ink/tags/time/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/tags/time/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>asymmetry-series</title>
@@ -17,15 +35,6 @@
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://ivychapel.ink/tags/asymmetry-series/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>musings</title>
-      <link>https://ivychapel.ink/tags/musings/</link>
-      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://ivychapel.ink/tags/musings/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,21 @@
     <description>Recent content in Posts on ivychapel.ink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivychapel.ink/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>On time / 1</title>
+      <link>https://ivychapel.ink/posts/on-time/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/on-time/</guid>
+      <description>Over the last decade I went through a set of slow “getting-used-to-this-thought” realisations. They have transformed the way I work and what I work on. Being obvious, they matter to me more than many eureka moments and epiphanies.
+When I was younger, time was abundant, and I learnt to play as if time didn’t exist. When you don’t mind time, it doesn’t exist in your experience.
+As time, subjectively inexistent, but objectively observable, passes, it suddenly starts to matter.</description>
+    </item>
     
     <item>
       <title>Less obvious parts of security asymmetries</title>
