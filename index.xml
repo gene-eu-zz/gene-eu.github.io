@@ -6,10 +6,21 @@
     <description>Recent content on ivychapel.ink</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ivychapel.ink/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generic questions breed generic answers</title>
+      <link>https://ivychapel.ink/posts/generic-questions-breed-generic-answers/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/generic-questions-breed-generic-answers/</guid>
+      <description>&amp;ldquo;Should I use TLS for HIPAA compliance?” “Is self-signed certificate OK for mutual TLS authentication?” “Can I work without a security policy but with awesome security engineers?” “Can I have PEP and PDP in the same component of my application?”  Mmm, maybe… Hell yeah! Sure you can! Oh, no! Avoid at all costs!
+I’m tired, can I go now?
+Without a certain level of precision and context in communication, there are very few mutually understandable reference points between people who build and people who protect.</description>
+    </item>
     
     <item>
       <title>On shortness of time</title>
@@ -105,8 +116,8 @@ You can fail only once .
       
       <guid>https://ivychapel.ink/about/</guid>
       <description>Hi, I&amp;rsquo;m Eugene Pilyankevich.
-I&amp;rsquo;m interested in the way humans think and behave under uncertainty and pressure, because I think that&amp;rsquo;s what life is made of mostly.
-Previously. I&amp;rsquo;ve been around software, networks and information security since I was a kid. Unsurprisingly, most of my professional career revolved around technology: I&amp;rsquo;ve worked as software engineer, systems administrator, security engineer, tech lead, CTO and COO in various companies. For the last decade I&amp;rsquo;ve worked for companies I&amp;rsquo;ve co-founded, because skin in the game keeps you evolving better than any self-help guru or productivity hack.</description>
+I&amp;rsquo;m interested in the way humans think and behave under uncertainty and pressure, because I think that&amp;rsquo;s what life is made of, mostly.
+Previously. I&amp;rsquo;ve been around software, networks and information security since I was a kid. Unsurprisingly, most of my professional career revolved around technology: I&amp;rsquo;ve worked as software engineer, systems administrator, security engineer, tech lead, CTO and COO in various tech-driven companies. For the last decade I&amp;rsquo;ve worked for companies I&amp;rsquo;ve co-founded or invested in, because skin in the game keeps you motivated better than any self-help guru or productivity hack.</description>
     </item>
     
   </channel>
