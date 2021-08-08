@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>surveillance on ivychapel.ink</title>
+    <link>https://ivychapel.ink/tags/surveillance/</link>
+    <description>Recent content in surveillance on ivychapel.ink</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ivychapel.ink/tags/surveillance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guessing Apple&#39;s CSAM motivations</title>
+      <link>https://ivychapel.ink/posts/guessing-apple-csam-motivations/</link>
+      <pubDate>Sun, 08 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ivychapel.ink/posts/guessing-apple-csam-motivations/</guid>
+      <description>With all gloom&amp;rsquo;n&amp;rsquo;doom scenarios about CSAM misuse have been pointed out and outrage about change in value proposition is heating up, I am missing one interesting angle in the Apple CSAM discussion:
+ Implementation of any security control/technology is an exercise in security budget allocation. What is the expected change in security posture/risk resistance and how much it will cost? Are there more important risks we can address with equal budget?</description>
+    </item>
+    
+  </channel>
+</rss>
